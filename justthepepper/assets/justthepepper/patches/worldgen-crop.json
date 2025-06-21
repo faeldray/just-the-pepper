@@ -14,7 +14,7 @@
 			"minTemp": 8,
 			"maxTemp": 34,
 			"minRain": 0.5,
-			"maxRain": 0.1,
+			"maxRain": 1.0,
 			"maxForest": 0.7,
 			"quantity": {
 				"avg": 5,

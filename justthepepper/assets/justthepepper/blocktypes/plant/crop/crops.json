@@ -133,7 +133,7 @@
 		"tickGrowthProbability": 0.05,
 		"handbook": {
 			"includeByType": {
-				"*-11": true,
+				"*-15": true,
 				"*": false
 			}
 		}
@@ -180,7 +180,7 @@
 			{
 				"type": "item",
 				"code": "justthepepper:seeds-pepperbell",
-				"quantity": { "avg": 0 }
+				"quantity": { "avg": 0.0000001 }
 			}
 		]
 	},
