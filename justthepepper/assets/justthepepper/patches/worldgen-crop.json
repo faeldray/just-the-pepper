@@ -1,0 +1,27 @@
+[
+	{
+		"op": "add",
+		"path": "/-",
+		"value": {
+			"comment": "Small patches of bellpepper",
+			"blockCodes": [
+				"justthepepper:crop-pepperbell-3",
+				"justthepepper:crop-pepperbell-6",
+				"justthepepper:crop-pepperbell-9",
+				"justthepepper:crop-pepperbell-12",
+				"justthepepper:crop-pepperbell-15"
+			],
+			"minTemp": 8,
+			"maxTemp": 34,
+			"minRain": 0.5,
+			"maxRain": 0.1,
+			"maxForest": 0.7,
+			"quantity": {
+				"avg": 5,
+				"var": 5
+			},
+			"chance": 0.035
+		},
+		"file": "game:worldgen/blockpatches/crop.json"
+	}
+]

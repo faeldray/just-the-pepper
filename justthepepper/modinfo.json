@@ -1,0 +1,12 @@
+{
+	"type": "content",
+	"modid": "justthepepper",
+	"name": "Just The Pepper",
+	"side": "universal",
+	"requiredOnClient": true,
+	"requiredOnServer": true,
+	"description" : "Adds the ability to grow vanilla bell peppers",
+	"authors": ["Faeldray"],
+	"version": "1.0.0",
+	"dependencies": {}
+}

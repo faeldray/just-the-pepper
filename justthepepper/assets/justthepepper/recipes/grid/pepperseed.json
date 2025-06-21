@@ -1,0 +1,9 @@
+{
+	"ingredientPattern": "P",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:vegetable-bellpepper" }
+	},
+	"width": 1,
+	"height": 1,
+	"output": { "type": "item", "code": "justthepepper:seeds-pepperbell", "quantity": 1 }
+}

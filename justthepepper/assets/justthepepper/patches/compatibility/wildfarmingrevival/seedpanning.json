@@ -1,0 +1,14 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/0/value/-",
+		"value": {
+			"type": "item",
+			"code": "justthepepper:seeds-pepperbell",
+			"chance": { "avg": 0.001 }
+		},
+		"file": "wildfarmingrevival:patches/seedpanning.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "wildfarmingrevival" } ]
+	}
+]

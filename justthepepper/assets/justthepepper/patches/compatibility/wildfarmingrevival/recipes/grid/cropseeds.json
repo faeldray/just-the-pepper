@@ -1,0 +1,8 @@
+[
+	{
+		"file": "wildfarmingrevival:recipes/grid/cropseeds.json",
+		"op": "remove",
+		"path": "/1/ingredients/H/allowedVariants/5",
+		"dependsOn": [ { "modid": "wildfarmingrevival" } ]
+	}
+]

@@ -1,0 +1,216 @@
+{
+	"code": "crop",
+	"class": "BlockCrop",
+	"behaviors": [ { "name": "Unstable" } ],
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": ["pepperbell"]
+		},
+		{
+			"code": "stage",
+			"states": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*" ],
+		"justthepepper": [ "*" ],
+		"flora": ["*"]
+	},
+	"renderpass": "OpaqueNoCull",
+	"shapeByType": {
+		"*pepperbell-6": { "base": "game:block/plant/crop/bellpepper/bellpepper-6", "scale": 0.89 },
+		"*pepperbell-7": { "base": "game:block/plant/crop/bellpepper/bellpepper-7", "scale": 0.89 },
+		"*pepperbell-8": { "base": "game:block/plant/crop/bellpepper/bellpepper-8", "scale": 0.89 },
+		"*pepperbell-9": { "base": "game:block/plant/crop/bellpepper/bellpepper-10", "scale": 0.89 },
+		"*pepperbell-10": { "base": "game:block/plant/crop/bellpepper/bellpepper-10", "scale": 0.89 },
+		"*pepperbell-11": { "base": "game:block/plant/crop/bellpepper/bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-12": { "base": "game:block/plant/crop/bellpepper/bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-13": { "base": "game:block/plant/crop/bellpepper/bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-14": { "base": "game:block/plant/crop/bellpepper/bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-15": { "base": "game:block/plant/crop/bellpepper/bellpepper-fruiting", "scale": 0.89 },
+		"*pepperbell*": { "base": "game:block/plant/crop/bellpepper/bellpepper-small", "scale": 0.89 }
+	},
+	"texturesByType": {
+		"*-1": { 
+			"normal3": { "base": "game:block/plant/crop/bellpepper/seed3" },
+			"normal2": { "base": "game:block/plant/crop/bellpepper/seed2" },
+			"foliage": { "base": "game:block/plant/crop/bellpepper/seed-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-2": { 
+			"normal3": { "base": "game:block/plant/crop/bellpepper/normal0-3" },
+			"normal2": { "base": "game:block/plant/crop/bellpepper/normal0-2" },
+			"foliage": { "base": "game:block/plant/crop/bellpepper/normal0-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-3": { 
+			"normal3": { "base": "game:block/plant/crop/bellpepper/normal1-3" },
+			"normal2": { "base": "game:block/plant/crop/bellpepper/normal1-2" },
+			"foliage": { "base": "game:block/plant/crop/bellpepper/normal1-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},			
+		"*-4": { 
+			"normal3": { "base": "game:block/plant/crop/bellpepper/normal2-3" },
+			"normal2": { "base": "game:block/plant/crop/bellpepper/normal2-2" },
+			"foliage": { "base": "game:block/plant/crop/bellpepper/normal2-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},			
+		"*-9": {
+			"foliage": { "base": "game:block/plant/crop/bellpepper/foliage7" },
+			"normal-3": { "base": "game:block/plant/crop/bellpepper/normal7-3" },
+			"normal-2": { "base": "game:block/plant/crop/bellpepper/normal7-2" },
+			"foliage2": { "base": "game:block/plant/crop/bellpepper/normal7-1" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage7" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-11": {
+			"foliage": { "base": "game:block/plant/crop/bellpepper/foliage9" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage9" },
+			"normal-3": { "base": "game:block/plant/crop/bellpepper/normal9-3" },
+			"bulb": { "base": "game:block/plant/crop/bellpepper/bulb" },
+			"normal-2": { "base": "game:block/plant/crop/bellpepper/normal9-2" },
+			"foliage2": { "base": "game:block/plant/crop/bellpepper/normal9-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-12": {
+			"foliage": { "base": "game:block/plant/crop/bellpepper/foliage10" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage10" },
+			"normal-3": { "base": "game:block/plant/crop/bellpepper/normal10-3" },
+			"bulb": { "base": "game:block/plant/crop/bellpepper/bulb" },
+			"normal-2": { "base": "game:block/plant/crop/bellpepper/normal10-2" },
+			"foliage2": { "base": "game:block/plant/crop/bellpepper/normal10-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-13": {
+			"foliage": { "base": "game:block/plant/crop/bellpepper/foliage11" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage11" },
+			"normal-3": { "base": "game:block/plant/crop/bellpepper/normal11-3" },
+			"bulb": { "base": "game:block/plant/crop/bellpepper/bulb" },
+			"normal-2": { "base": "game:block/plant/crop/bellpepper/normal11-2" },
+			"foliage2": { "base": "game:block/plant/crop/bellpepper/normal11-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-14": {
+			"foliage": { "base": "game:block/plant/crop/bellpepper/foliage12" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage12" },
+			"normal-3": { "base": "game:block/plant/crop/bellpepper/normal12-3" },
+			"bulb": { "base": "game:block/plant/crop/bellpepper/bulb" },
+			"normal-2": { "base": "game:block/plant/crop/bellpepper/normal12-2" },
+			"foliage2": { "base": "game:block/plant/crop/bellpepper/normal12-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-15": {
+			"foliage": { "base": "game:block/plant/crop/bellpepper/foliage14" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage14" },
+			"normal-3": { "base": "game:block/plant/crop/bellpepper/normal14-3" },
+			"bulb": { "base": "game:block/plant/crop/bellpepper/bulb" },
+			"normal-2": { "base": "game:block/plant/crop/bellpepper/normal14-2" },
+			"foliage2": { "base": "game:block/plant/crop/bellpepper/normal14-1" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-10": true,
+			"*-11": true,
+			"*-12": true,
+			"*-13": true,
+			"*-14": true,
+			"*": false
+		},
+		"beeFeedByType": {
+			"*-10": true,
+			"*-11": true,
+			"*-12": true,
+			"*-13": true,
+			"*-14": true,
+			"*": false
+		},
+		"sitHeight": 0.3,
+		"tickGrowthProbability": 0.05,
+		"handbook": {
+			"includeByType": {
+				"*-11": true,
+				"*": false
+			}
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"soundsByType": {
+		"*": {
+			"place": "game:block/plant",
+			"break": "game:block/plant",
+			"hit": "game:block/plant"
+		}
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*pepperbell-14": [
+			{
+				"type": "item",
+				"code": "game:vegetable-bellpepper",
+				"quantity": {
+					"avg": 1.5,
+					"var": 0.5
+				}
+			}
+		],
+		"*pepperbell-15": [
+			{
+				"type": "item",
+				"code": "game:vegetable-bellpepper",
+				"quantity": {
+					"avg": 8,
+					"var": 2
+				}
+			}
+		],
+		"*": [
+			{
+				"type": "item",
+				"code": "justthepepper:seeds-pepperbell",
+				"quantity": { "avg": 0 }
+			}
+		]
+	},
+	"cropPropsByType": {
+		"*pepperbell*": {
+			"requiredNutrient": "P",
+			"nutrientConsumption": 20,
+			"growthStages": 15,
+			"totalGrowthMonths": 1.65,
+			"heatDamageAbove": 34,
+			"coldDamageBelow": 8
+		}
+	},
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.0625,
+		"y1": 0,
+		"z1": 0.0625,
+		"x2": 0.9375,
+		"y2": 0.25,
+		"z2": 0.9375
+	},
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 6, "z": 0 },
+		"scale": 0.94
+	},
+	"frostable": true
+}

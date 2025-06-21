@@ -1,0 +1,8 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/attributes/lootListByType/*-seed/0/codes/-",
+		"value": "justthepepper:seeds-pepperbell",
+		"file": "game:blocktypes/clay/lootvessel.json"
+	}
+]

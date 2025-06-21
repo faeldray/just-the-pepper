@@ -1,0 +1,8 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/*-seed/stacks",
+		"value": [{ "type": "item", "code": "justthepepper:seeds-pepperbell", "quantity": { "avg": 2.5, "var": 1 }, "chance": 10 }],
+		"file": "game:itemtypes/meta/stackrandomizer.json"
+	}
+]

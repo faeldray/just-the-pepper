@@ -1,0 +1,20 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/selling/list",
+		"value": [{
+			"code": "justthepepper:seeds-pepperbell",
+			"type": "item",
+			"stacksize": 4,
+			"stock": {
+					"avg": 2,
+					"var": 0.5
+			},
+			"price": {
+					"avg": 4,
+					"var": 1
+			}
+		}],
+		"file": "game:config/tradelists/trader-agriculture.json"
+	}
+]
