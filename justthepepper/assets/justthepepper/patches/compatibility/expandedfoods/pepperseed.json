@@ -1,0 +1,35 @@
+[
+	{
+		"file": "expandedfoods:recipes/grid/choppedvegetable.json",
+		"op": "remove",
+		"path": "/0/ingredients/V/allowedVariants/7",
+		"dependsOn": [ { "modid": "expandedfoods" } ]
+	},
+	{
+		"file": "expandedfoods:recipes/grid/choppedvegetable.json",
+		"op": "remove",
+		"path": "/2/ingredients/V/allowedVariants/7",
+		"dependsOn": [ { "modid": "expandedfoods" } ]
+	},
+	{
+		"file": "justthepepper:recipes/grid/pepperseed.json",
+		"op": "replace",
+		"path": "/0/enabled",
+		"value": false,
+		"dependsOn": [ { "modid": "expandedfoods" } ]
+	},
+	{
+		"file": "justthepepper:recipes/grid/pepperseed.json",
+		"op": "replace",
+		"path": "/1/enabled",
+		"value": true,
+		"dependsOn": [ { "modid": "expandedfoods" } ]
+	},
+	{
+		"file": "justthepepper:recipes/grid/pepperseed.json",
+		"op": "replace",
+		"path": "/2/enabled",
+		"value": true,
+		"dependsOn": [ { "modid": "expandedfoods" } ]
+	}
+]
