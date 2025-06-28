@@ -8,7 +8,7 @@
 
 	"shape": { "base": "game:item/resource/seeds/seedbag" },
 	"textures": {
-		"seed": { "base": "item/resource/seeds/bellpepper" }
+		"seed": { "base": "item/resource/seeds/pepperbell" }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "justthepepper": ["*"] },
 	"materialDensity": 450,

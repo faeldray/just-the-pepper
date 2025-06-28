@@ -7,6 +7,6 @@
 	"requiredOnServer": true,
 	"description" : "Adds the ability to grow vanilla bell peppers",
 	"authors": ["Faeldray"],
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"dependencies": {}
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed0/-", "side": "server", 
+    "value": "justthepepper:item/resource/seeds/{seed0}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed1/-", "side": "server", 
+    "value": "justthepepper:item/resource/seeds/{seed1}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed2/-", "side": "server", 
+    "value": "justthepepper:item/resource/seeds/{seed2}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed3/-", "side": "server", 
+    "value": "justthepepper:item/resource/seeds/{seed3}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+  }
+]
