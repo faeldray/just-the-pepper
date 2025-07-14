@@ -19,17 +19,17 @@
 	},
 	"renderpass": "OpaqueNoCull",
 	"shapeByType": {
-		"*pepperbell-6": { "base": "game:block/plant/crop/bellpepper/bellpepper-6", "scale": 0.89 },
-		"*pepperbell-7": { "base": "game:block/plant/crop/bellpepper/bellpepper-7", "scale": 0.89 },
-		"*pepperbell-8": { "base": "game:block/plant/crop/bellpepper/bellpepper-8", "scale": 0.89 },
-		"*pepperbell-9": { "base": "game:block/plant/crop/bellpepper/bellpepper-10", "scale": 0.89 },
-		"*pepperbell-10": { "base": "game:block/plant/crop/bellpepper/bellpepper-10", "scale": 0.89 },
-		"*pepperbell-11": { "base": "game:block/plant/crop/bellpepper/bellpepper-fullgrown", "scale": 0.89 },
-		"*pepperbell-12": { "base": "game:block/plant/crop/bellpepper/bellpepper-fullgrown", "scale": 0.89 },
-		"*pepperbell-13": { "base": "game:block/plant/crop/bellpepper/bellpepper-fullgrown", "scale": 0.89 },
-		"*pepperbell-14": { "base": "game:block/plant/crop/bellpepper/bellpepper-fullgrown", "scale": 0.89 },
-		"*pepperbell-15": { "base": "game:block/plant/crop/bellpepper/bellpepper-fruiting", "scale": 0.89 },
-		"*pepperbell*": { "base": "game:block/plant/crop/bellpepper/bellpepper-small", "scale": 0.89 }
+		"*pepperbell-6": { "base": "bellpepper-6", "scale": 0.89 },
+		"*pepperbell-7": { "base": "bellpepper-7", "scale": 0.89 },
+		"*pepperbell-8": { "base": "bellpepper-8", "scale": 0.89 },
+		"*pepperbell-9": { "base": "bellpepper-10", "scale": 0.89 },
+		"*pepperbell-10": { "base": "bellpepper-10", "scale": 0.89 },
+		"*pepperbell-11": { "base": "bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-12": { "base": "bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-13": { "base": "bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-14": { "base": "bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-15": { "base": "bellpepper-fruiting", "scale": 0.89 },
+		"*pepperbell*": { "base": "bellpepper-small", "scale": 0.89 }
 	},
 	"texturesByType": {
 		"*-1": { 
@@ -49,19 +49,58 @@
 			"normal2": { "base": "game:block/plant/crop/bellpepper/normal1-2" },
 			"foliage": { "base": "game:block/plant/crop/bellpepper/normal1-1" },
 			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
-		},			
+		},
 		"*-4": { 
 			"normal3": { "base": "game:block/plant/crop/bellpepper/normal2-3" },
 			"normal2": { "base": "game:block/plant/crop/bellpepper/normal2-2" },
 			"foliage": { "base": "game:block/plant/crop/bellpepper/normal2-1" },
 			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
-		},			
+		},
+		"*-5": { 
+			"foliage": { "base": "game:block/plant/crop/bellpepper/normal3-1" },
+			"normal2": { "base": "game:block/plant/crop/bellpepper/normal3-2" },
+			"normal3": { "base": "game:block/plant/crop/bellpepper/normal3-3" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-6": { 
+			"foliage4": { "base": "game:block/plant/crop/bellpepper/foliage5and4" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage5and4" },
+			"foliage42": { "base": "game:block/plant/crop/bellpepper/normal4-1" },
+			"normal4-2": { "base": "game:block/plant/crop/bellpepper/normal4-2" },
+			"normal4-3": { "base": "game:block/plant/crop/bellpepper/normal4-3" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-7": { 
+			"foliage5": { "base": "game:block/plant/crop/bellpepper/foliage5and4" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage5and4" },
+			"foliage52": { "base": "game:block/plant/crop/bellpepper/normal5-1" },
+			"normal5-2": { "base": "game:block/plant/crop/bellpepper/normal5-2" },
+			"normal5-3": { "base": "game:block/plant/crop/bellpepper/normal5-3" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-8": { 
+			"foliage6": { "base": "game:block/plant/crop/bellpepper/foliage6-1" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage6-1" },
+			"foliage6-2": { "base": "game:block/plant/crop/bellpepper/foliage6-2" },
+			"foliage62": { "base": "game:block/plant/crop/bellpepper/normal6-1" },
+			"normal6-2": { "base": "game:block/plant/crop/bellpepper/normal6-2" },
+			"normal6-3": { "base": "game:block/plant/crop/bellpepper/normal6-3" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
 		"*-9": {
 			"foliage": { "base": "game:block/plant/crop/bellpepper/foliage7" },
 			"normal-3": { "base": "game:block/plant/crop/bellpepper/normal7-3" },
 			"normal-2": { "base": "game:block/plant/crop/bellpepper/normal7-2" },
 			"foliage2": { "base": "game:block/plant/crop/bellpepper/normal7-1" },
 			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage7" },
+			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
+		},
+		"*-10": {
+			"foliage": { "base": "game:block/plant/crop/bellpepper/foliage8" },
+			"leaves1": { "base": "game:block/plant/crop/bellpepper/foliage8" },
+			"foliage2": { "base": "game:block/plant/crop/bellpepper/normal8-1" },
+			"normal-2": { "base": "game:block/plant/crop/bellpepper/normal8-2" },
+			"normal-3": { "base": "game:block/plant/crop/bellpepper/normal8-3" },
 			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
 		},
 		"*-11": {
