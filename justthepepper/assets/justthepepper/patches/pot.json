@@ -1,0 +1,37 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/texturesByType/*",
+		"value": { "group18": { "base": "justthepepper:block/food/meal/group18-bellpepper" } },
+		"side": "server",
+		"file": "game:blocktypes/clay/pot.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributesByType/claypot-cooked/textureMapping/vegetable-bellpepper/0",
+		"value": "vegetable",
+		"side": "server",
+		"file": "game:blocktypes/clay/pot.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-bellpepper/0",
+		"value": "vegetable",
+		"side": "server",
+		"file": "game:blocktypes/clay/pot.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributesByType/claypot-cooked/textureMapping/vegetable-bellpepper/1",
+		"value": "group18",
+		"side": "server",
+		"file": "game:blocktypes/clay/pot.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-bellpepper/1",
+		"value": "group18",
+		"side": "server",
+		"file": "game:blocktypes/clay/pot.json"
+	}
+]
