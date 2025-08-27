@@ -1,0 +1,19 @@
+[
+	{
+		"file": "primitivesurvival:blocktypes/wood/treehollowgrown.json",
+		"op": "addeach",
+		"path": "/attributes/primitivesurvival/treeHollowContentsByHollowType/all/-",
+		"value": [
+			{
+				"code": "justthepepper:item-seeds-pepperbell",
+				"amount": 1
+			},
+			{
+				"code": "justthepepper:item-seeds-pepperbell",
+				"amount": 1
+			}
+		],
+		"side": "server",
+		"dependsOn": [ { "modid": "primitivesurvival" } ]
+	}
+]
