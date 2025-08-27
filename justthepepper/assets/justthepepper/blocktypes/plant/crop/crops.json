@@ -19,17 +19,17 @@
 	},
 	"renderpass": "OpaqueNoCull",
 	"shapeByType": {
-		"*pepperbell-6": { "base": "bellpepper-6", "scale": 0.89 },
-		"*pepperbell-7": { "base": "bellpepper-7", "scale": 0.89 },
-		"*pepperbell-8": { "base": "bellpepper-8", "scale": 0.89 },
-		"*pepperbell-9": { "base": "bellpepper-10", "scale": 0.89 },
-		"*pepperbell-10": { "base": "bellpepper-10", "scale": 0.89 },
-		"*pepperbell-11": { "base": "bellpepper-fullgrown", "scale": 0.89 },
-		"*pepperbell-12": { "base": "bellpepper-fullgrown", "scale": 0.89 },
-		"*pepperbell-13": { "base": "bellpepper-fullgrown", "scale": 0.89 },
-		"*pepperbell-14": { "base": "bellpepper-fullgrown", "scale": 0.89 },
-		"*pepperbell-15": { "base": "bellpepper-fruiting", "scale": 0.89 },
-		"*pepperbell*": { "base": "bellpepper-small", "scale": 0.89 }
+		"*pepperbell-6": { "base": "block/crop/bellpepper-6", "scale": 0.89 },
+		"*pepperbell-7": { "base": "block/crop/bellpepper-7", "scale": 0.89 },
+		"*pepperbell-8": { "base": "block/crop/bellpepper-8", "scale": 0.89 },
+		"*pepperbell-9": { "base": "block/crop/bellpepper-10", "scale": 0.89 },
+		"*pepperbell-10": { "base": "block/crop/bellpepper-10", "scale": 0.89 },
+		"*pepperbell-11": { "base": "block/crop/bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-12": { "base": "block/crop/bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-13": { "base": "block/crop/bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-14": { "base": "block/crop/bellpepper-fullgrown", "scale": 0.89 },
+		"*pepperbell-15": { "base": "block/crop/bellpepper-fruiting", "scale": 0.89 },
+		"*pepperbell*": { "base": "block/crop/bellpepper-small", "scale": 0.89 }
 	},
 	"texturesByType": {
 		"*-1": { 
