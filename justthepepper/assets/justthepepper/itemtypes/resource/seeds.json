@@ -1,7 +1,6 @@
 {
 	"code": "seeds",
 	"class": "ItemPlantableSeed",
-	"storageFlags": 257,
 	"behaviors": [{ 
 		"name": "GroundStorable",
 		"properties": {
