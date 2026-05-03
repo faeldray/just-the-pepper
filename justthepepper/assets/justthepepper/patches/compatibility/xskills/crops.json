@@ -12,5 +12,19 @@
 		],
 		"file": "justthepepper:blocktypes/plant/crop/crops.json",
 		"dependsOn": [ { "modid": "xskills" } ]
+	},
+	{
+		"op": "addmerge",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "XSkillsCrop",
+				"properties": {
+					"xp": 0.20
+				}
+			}
+		],
+		"file": "justthepepper:blocktypes/plant/crop/crops.json",
+		"dependsOn": [ { "modid": "xskillsrabite" } ]
 	}
 ]
