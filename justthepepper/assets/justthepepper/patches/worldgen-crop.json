@@ -12,7 +12,7 @@
 				"justthepepper:crop-pepperbell-15"
 			],
 			"minTemp": 8,
-			"maxTemp": 34,
+			"maxTemp": 40,
 			"minRain": 0.5,
 			"maxRain": 1.0,
 			"maxForest": 0.7,

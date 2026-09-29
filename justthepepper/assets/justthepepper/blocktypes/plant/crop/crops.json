@@ -229,7 +229,7 @@
 			"nutrientConsumption": 20,
 			"growthStages": 15,
 			"totalGrowthMonths": 1.65,
-			"heatDamageAbove": 34,
+			"heatDamageAbove": 40,
 			"coldDamageBelow": 8
 		}
 	},
