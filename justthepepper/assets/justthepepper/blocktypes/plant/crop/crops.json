@@ -149,6 +149,18 @@
 			"mapcolor": { "base": "game:block/plant/crop/bellpepper/foliage15" }
 		}
 	},
+	"behaviorsByType": {
+		"*-15": [
+			{ 
+				"name": "Harvestable",
+				"properties": {
+					"harvestTime": 1.2, 
+					"harvestedStack": { "type": "item", "code": "game:vegetable-bellpepper", "quantity": { "avg": 4, "var": 1 } },
+					"harvestedBlockCode": "crop-pepperbell-11"
+				}
+			}
+		]
+	},
 	"randomizeRotations": true,
 	"blockmaterial": "Plant",
 	"attributes": {
@@ -190,7 +202,8 @@
 		"*": {
 			"place": "game:block/plant",
 			"break": "game:block/plant",
-			"hit": "game:block/plant"
+			"hit": "game:block/plant",
+			"inside": "game:walk/inside/leafy/bushrustle*"
 		}
 	},
 	"rainPermeable": false,
@@ -210,8 +223,8 @@
 				"type": "item",
 				"code": "game:vegetable-bellpepper",
 				"quantity": {
-					"avg": 8,
-					"var": 2
+					"avg": 4,
+					"var": 1
 				}
 			}
 		],
